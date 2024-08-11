@@ -1,0 +1,24 @@
+<config>
+<append xpath="/recipes">
+	<recipe name="firesMediumGenerator" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+		<ingredient name="resourceForgedSteel" count="100"/>
+		<ingredient name="resourceMechanicalParts" count="25"/>
+		<ingredient name="resourceElectricParts" count="30"/>
+		<ingredient name="resourceScrapPolymers" count="35"/>
+		<ingredient name="carBattery" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".50,.40,.30,.20,.10" tags="resourceForgedSteel,resourceMechanicalParts,resourceElectricParts"/>
+		</effect_group>
+	</recipe>
+	<recipe name="firesLargeGenerator" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+		<ingredient name="resourceForgedSteel" count="200"/>
+		<ingredient name="resourceMechanicalParts" count="50"/>
+		<ingredient name="resourceElectricParts" count="60"/>
+		<ingredient name="resourceScrapPolymers" count="70"/>
+		<ingredient name="carBattery" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".50,.40,.30,.20,.10" tags="resourceForgedSteel,resourceMechanicalParts,resourceElectricParts"/>
+		</effect_group>
+	</recipe>
+</append>
+</config>

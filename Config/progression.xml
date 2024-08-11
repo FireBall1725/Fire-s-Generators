@@ -1,0 +1,14 @@
+<configs>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']">
+		<display_entry icon="questGeneratorSmall" name_key="electricianT5" has_quality="false" unlock_level="100" >
+			<unlock_entry item="firesMediumGenerator" unlock_tier="1" />
+			<unlock_entry item="firesLargeGenerator" unlock_tier="1" />
+		</display_entry>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="firesLargeGenerator"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="100" value="5" tags="firesLargeGenerator"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="firesMediumGenerator"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="100" value="5" tags="firesMediumGenerator"/>
+		</effect_group>
+	</append>
+</configs>

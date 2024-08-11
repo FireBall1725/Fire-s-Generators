@@ -1,0 +1,8 @@
+Key,File,Type,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+firesMediumGenerator,Blocks,block,"Medium Generator",,,,,,,,,,,,,,
+firesMediumGeneratorDesc,Blocks,block,"A generator that is 3x more powerful",,,,,,,,,,,,,,
+firesLargeGenerator,Blocks,block,"Large Generator",,,,,,,,,,,,,,
+firesLargeGeneratorDesc,Blocks,block,"A generator that is 6x more powerful",,,,,,,,,,,,,,
+
+electricianT5,Progression,progression,"Tier 5: Need more power",,,,,,,,,,,,,,
